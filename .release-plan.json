@@ -1,0 +1,26 @@
+{
+  "solution": {
+    "can-symlink": {
+      "impact": "major",
+      "oldVersion": "1.0.0",
+      "newVersion": "2.0.0",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "major",
+          "reason": "Appears in changelog section :boom: Breaking Change"
+        },
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./package.json"
+    }
+  },
+  "description": "## Release (2026-06-16)\n\n* can-symlink 2.0.0 (major)\n\n#### :boom: Breaking Change\n* `can-symlink`\n  * [#8](https://github.com/ember-cli/can-symlink/pull/8) update tmp package to latest and add a basic CI ([@mansona](https://github.com/mansona))\n\n#### :rocket: Enhancement\n* `can-symlink`\n  * [#4](https://github.com/ember-cli/can-symlink/pull/4) only include files required for publish ([@stefanpenner](https://github.com/stefanpenner))\n\n#### :house: Internal\n* `can-symlink`\n  * [#9](https://github.com/ember-cli/can-symlink/pull/9) start using release-plan ([@mansona](https://github.com/mansona))\n\n#### Committers: 2\n- Chris Manson ([@mansona](https://github.com/mansona))\n- Stefan Penner ([@stefanpenner](https://github.com/stefanpenner))\n"
+}
