@@ -1,6 +1,6 @@
 {
   "name": "can-symlink",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Utility module to determine if fs.symlink commands will succeed. Useful for win32 enviornments where special permission is required for symlinking.",
   "keywords": [
     "symlink",
